@@ -5,6 +5,7 @@ import { CardComponent } from "../shared/card/card";
 @Component({
   selector: 'app-user',
   imports: [CardComponent],
+  standalone: true,
   templateUrl: './user.html',
   styleUrl: './user.css',
 })
