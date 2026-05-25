@@ -1,7 +1,5 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { DUMMY_USERS } from '../dummy-users';
-
-
 
 @Component({
   selector: 'app-root',
